@@ -1,8 +1,11 @@
 # UTNExamen – Backend (Node.js, Express, Docker, MySQL) 🚀
-### Node.js v20.19.5 (LTS) / Docker Engine 28.4.0 / Docker Compose v2.39.2
+### Node.js v20.19.5 (LTS) / Docker Engine 28.4.0 / Docker Compose v2.39.2 
 ![Node.js](https://img.shields.io/badge/Node.js-v20-green)
 ![Docker](https://img.shields.io/badge/Docker-Engine-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
+### Dependencias principales
+express (4.19.2) - mysql2 (3.10.0) - jsonwebtoken (9.0.2) - bcrypt (5.1.1) - inquirer (9.2.23)  
+Todas las dependencias y sus versiones exactas se encuentran en package.json y package-lock.json.
 
 ## Backend de gestión de **usuarios, productos y pedidos** con:  
 🔑 Autenticación **JWT**  
@@ -117,3 +120,4 @@ GET /pedidos → listar pedidos del usuario autenticado.
 
 ### 📊 Reportes
 GET /reportes → reportes de usuarios, pedidos y productos (admin y superAdmin).  
+
