@@ -1,0 +1,1 @@
+import { productoService } from './productoService.js'; export const stockService = { async setStock(id,c){ return productoService.setStock(id,c); }, async list(){ return productoService.listStock(); } };
